@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css"> <!--link to css styling page-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ddb8a1e409.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar for twitter clone -->
+
+    <div>
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+              <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#" ><i class="fab fa-earlybirds"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li> -->
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Twitter" aria-label="Search Twitter">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+    </div>
+
+    <div class="wrapper">
+
+    </div>
+
+
+    <!-- First Container for three columns of twitter feed -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Home</li>
+                      <li class="list-group-item">Explore</li>
+                      <li class="list-group-item">Notifications</li>
+                      <li class="list-group-item">Messages</li>
+                      <li class="list-group-item">Bookmarks</li>
+                      <li class="list-group-item">Lists</li>
+                      <li class="list-group-item">Profile</li>
+                      <li class="list-group-item">More</li>
+                    </ul>
+                    <button class="btn btn-primary">Tweet</button>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <p>Feed</p>
+                    <div class="card">
+                        <div class="card-body">
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="https://lh3.googleusercontent.com/ogw/ADGmqu9KB-TAx5wJM6Bl_vTvieyTAiQbS_QKomcnvPvv=s32-c-mo" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0">Cristian_a_g</h5>
+                          <p>My first Tweet. YAY!</p>
+                        </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-body">
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="https://pbs.twimg.com/profile_images/1307414329180983298/iBLWB-2Q_400x400.jpg" alt="Generic placeholder image" height="35px" width="35px">
+                        <div class="media-body">
+                          <h5 class="mt-0">Wacky_jacky</h5>
+                          <p>What spooky movies should I watch with my witch friend tonight</p>
+                        </div>
+                    </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-body">
+                    <div class="media">
+                        <img class="align-self-start mr-3" src="https://pbs.twimg.com/profile_images/923427309377421312/SyHG41eQ_400x400.jpg" alt="Generic placeholder image" height="35px" width="35px">
+                        <div class="media-body">
+                          <h5 class="mt-0">Josh_Alvarez</h5>
+                          <p>I miss my Phi Mu Alpha Brother's!</p>
+                        </div>
+                    </div>
+                        </div>
+                      </div>
+                </div>
+
+                    <div class="col-md-3">
+                        <p>News</p>
+                        <ul class="list-unstyled">
+                            <li class="media">
+                              <img class="mr-3" src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_400x400.jpg" alt="Donald Trump image"height="35px" witdth="35px">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Donald J. Trump</h5>
+                                Yes, he made fun of Joe Biden for wearing a mask. Yes he now has the Corona Virus.
+                            </li>
+                            <li class="media my-4">
+                              <img class="mr-3" src="https://pbs.twimg.com/semantic_core_img/1313292726163501057/Q-QvOwlm?format=jpg&name=240x240" alt="Joe Biden debate" height="35px" width="35px">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Politics</h5>
+                                Joe Biden says he will make Roe v. Wade 'the law of the land' if Supreme Court overturns the landmark ruling
+                              </div>
+                            </li>
+                            <li class="media">
+                              <img class="mr-3" src="https://pbs.twimg.com/semantic_core_img/1256316756236177408/uhT6hUns?format=jpg&name=240x240" alt="Corona protection information" height="35px" width="35px">
+                              <div class="media-body">
+                                <h5 class="mt-0 mb-1">Covid-19: How to protect yourself</h5>
+                                Keep up to date with what you need to know and what you need to be doing during the global pandemic with information from health officials and agencies.
+                            </li>
+                          </ul>
+                           
+                    </div>
+            
+        </div>
+    </div>
+    
+<!-- This is where my javascript is -->
+<div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
